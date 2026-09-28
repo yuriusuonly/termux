@@ -19,7 +19,6 @@ penguin() {
     proot-distro clear-cache
   fi
   proot-distro login \
-    --no-link2symlink \
     --shared-home \
     --shared-tmp \
     --hostname penguin \
