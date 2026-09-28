@@ -73,7 +73,6 @@ bsdtar() {
 code() {
   if ! type -fp code > /dev/null; then
     apt update -y && apt install -y ca-certificates
-    update-ca-certificates
     (
       mkdir -p "${_PATH[code]}" && cd "${_PATH[code]}"
       curl -L "https://update.code.visualstudio.com/latest/cli-linux-arm64/stable" \
