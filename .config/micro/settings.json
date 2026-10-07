@@ -2,5 +2,7 @@
   "filemanager.openonstart": true,
   "tabsize": 4,
   "tabstospaces": true,
-  "lsp.server": "c++=clangd,python=pylsp,rust=rust-analyzer,zig=zls,lua=lua-language-server,typescript=typescript-language-server,sql=sqls,html=vscode-html-language-server,css=vscode-css-language-server,json=vscode-json-language-server,shell=bash-language-server"
+  "lsp.server": "python=pylsp,zig=zls,c=clangd,c++=clangd,rust=rust-analyzer,typescript=typescript-language-server,html=vscode-html-language-server,css=vscode-css-language-server,json=vscode-json-language-server,yaml=yaml-language-server,markdown=marksman,shell=bash-language-server",
+  "lsp.tabcompletion": true,
+  "lsp.formatOnSave": true
 }
