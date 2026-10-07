@@ -1,0 +1,6 @@
+{
+  "filemanager.openonstart": true,
+  "tabsize": 4,
+  "tabstospaces": true,
+  "lsp.server": "c++=clangd,python=pylsp,rust=rust-analyzer,zig=zls,lua=lua-language-server,typescript=typescript-language-server,sql=sqls,html=vscode-html-language-server,css=vscode-css-language-server,json=vscode-json-language-server,shell=bash-language-server"
+}
